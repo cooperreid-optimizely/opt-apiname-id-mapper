@@ -1,11 +1,11 @@
 # opt-apiname-id-mapper
 
-### Install
+### Install and run locally
 1. `npm init --y`
 2. `npm install`
 3. `npm run start`
 
-### Deploy to Heroku
+### Deploy to Heroku and run
 1. Add code to a Heroku repo
 2. Committing / pushing new changes will deploy automatically
 ```
