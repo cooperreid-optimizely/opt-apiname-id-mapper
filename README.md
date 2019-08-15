@@ -14,3 +14,8 @@ $ git commit -am "make it better"
 $ git push heroku master
 ```
 3. Heroku servers know to run `npm run start` and will automatically proxy port 80 traffic to app via https://github.com/cooperreid-optimizely/opt-apiname-id-mapper/blob/master/index.js#L4
+
+### Usage
+```shell
+curl --header "X-Opt-Token: YOUR-V2-TOKEN" https://YOUR-HOSTNAME-AND-PORT/events/YOUR-PROJECT-ID
+```
