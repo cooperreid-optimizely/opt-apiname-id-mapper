@@ -1,9 +1,9 @@
 # opt-apiname-id-mapper
 
 ### Install
-1. npm init --y
-2. npm install 
-3. npm run start
+1. `npm init --y`
+2. `npm install`
+3. `npm run start`
 
 ### Deploy to Heroku
 1. Add code to a Heroku repo
